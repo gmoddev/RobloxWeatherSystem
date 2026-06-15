@@ -11,6 +11,7 @@ You'll likely have to replace the sounds.
 I found the sounds on https://www.epidemicsound.com
 
 --// This is excerpt from my core loader (https://github.com/gmoddev/CoreExample)
+```
 local function LoadServices(): Services
 	local Cache = {}
 
@@ -44,4 +45,4 @@ local Client = pcall(require,script.WeatherClient)
 local Success,Err = pcall(function()
     return Client(Helpers,Services)
 end)
-
+```
