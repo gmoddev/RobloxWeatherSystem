@@ -1,3 +1,5 @@
+--!nolint
+
 return function(helpers, services)
 	local Lighting = services.Lighting
 	local CollectionService = services.CollectionService
@@ -33,7 +35,7 @@ return function(helpers, services)
 
 	local WindSoundSettings = {
 		Medium = {
-			Id = "rbxassetid://2262900876",
+			Id = "rbxassetid://0",
 			Volume = 0.4,
 			From = 0.4,
 			To = 0.75,
